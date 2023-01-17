@@ -1,7 +1,8 @@
 ESPAÑOL:
 
-Este es un pequeño proyecto que hice con Python y DJango para poner en práctica mis
-habilidades y comenzar a crear mi portafolio. El mismo consiste de tres páginas:
+Este es un pequeño proyecto que hice con Python y DJango (y bootstrap para el CSS)
+para poner en práctica mis habilidades y comenzar a crear mi portafolio. El mismo
+consiste de tres páginas:
 - Inicio: Permite seleccionar los requisitos para generar una contraseña. Se permite
 seleccionar requisitos como la cantidad de caracteres (en un rango de 1 a 50), las letras
 mayúsculas, los símbolos o caracteres especiales, y los números. Las letras minúsculas
