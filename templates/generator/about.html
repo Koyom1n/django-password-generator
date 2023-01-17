@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+{% load static %}
+{% block content %}
+
+<div class="col-md-4 offset-md-4">
+    <div class="card card-body" style="background-color: #121212">
+
+        <h1>Acerca de</h1>
+        <p>Este proyecto fue hecho por Lautaro Ramírez</p>
+        <div class="my-2">
+            <button class="btn btn-light"><a href="https://www.linkedin.com/in/lautaro-ramírez-328410228/" class="normal-text"><img src="{% static 'img/linkedin.png' %}" class="mini-img">LinkedIn</a></button>
+        </div>
+        <div class="my-2">
+            <button class="btn btn-light"><a href="https://github.com/Koyom1n" class="normal-text"><img src="{% static 'img/github.png' %}" class="mini-img">GitHub</a></button>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
